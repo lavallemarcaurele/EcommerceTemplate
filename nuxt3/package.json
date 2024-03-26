@@ -9,8 +9,14 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
+  "resolutions": {
+    "string-width": "4.2.3"
+ },
   "dependencies": {
+    "@nuxt/image": "^1.4.0",
+    "@nuxtjs/i18n": "^8.2.0",
     "@nuxtjs/strapi": "^1.11.0",
+    "@vee-validate/nuxt": "^4.12.6",
     "nuxt": "^3.11.1",
     "vue": "^3.4.21",
     "vue-router": "^4.3.0"
