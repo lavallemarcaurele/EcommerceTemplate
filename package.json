@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "fs-extra": "^11.2.0"
+  },
+  "scripts": {
+    "copy-strapi-types": "node copy-strapi-types.js"
+  }  
+}
