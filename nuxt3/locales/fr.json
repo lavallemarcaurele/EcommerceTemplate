@@ -1,4 +1,7 @@
 {
   "welcome": "Bienvenue",
-  "buy": "Acheter"
+  "buy": "Acheter",
+  "logout": "Déconnexion",
+  "register": "S'inscrire",
+  "login": "Connexion"
 }

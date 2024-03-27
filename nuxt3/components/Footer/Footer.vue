@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <FormsRegister/>
-  </div>
+  <footer>
+    
+  </footer>
 </template>
 
 <script setup lang="ts">

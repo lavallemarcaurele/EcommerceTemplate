@@ -1,4 +1,7 @@
 {
   "welcome": "Welcome",
-  "buy": "Buy"
+  "buy": "Buy",
+  "logout": "Logout",
+  "register": "Register",
+  "login": "Login"
 }

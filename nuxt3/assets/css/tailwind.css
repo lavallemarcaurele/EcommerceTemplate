@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+header {
+  @apply flex items-center bg-secondary h-[60px] border-b border-b-grey px-4
+}
+
+footer {
+  @apply bg-secondary
+}
+
+.button {
+  @apply p-2 rounded-md bg-main cursor-pointer
+}
