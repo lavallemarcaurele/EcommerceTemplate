@@ -13,3 +13,7 @@ footer {
 .button {
   @apply p-2 rounded-md bg-main cursor-pointer
 }
+
+.card {
+  @apply rounded shadow-lg w-full sm:max-w-[330px] cursor-pointer
+}

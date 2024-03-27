@@ -3,7 +3,7 @@
     <div 
       v-for="product in products" 
       :key="product.id" 
-      class="rounded shadow-lg w-full sm:max-w-[330px]"
+      class="card"
     >
       <DesignSystemImage
         v-if="product.attributes.medias.data.length"
