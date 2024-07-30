@@ -393,13 +393,13 @@ export interface ApiProductProduct extends Schema.CollectionType {
           localized: true;
         };
       }>;
-    medias: Attribute.Media &
+    medias: Attribute.Media<'images' | 'videos', true> &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
       }>;
-    video: Attribute.Media &
+    video: Attribute.Media<'videos'> &
       Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
